@@ -21,4 +21,4 @@ Visit http://localhost:3000. For production, run `npm run build` followed by `np
 
 The API and character images are loaded directly from https://rickandmortyapi.com/api in the browser. Network access to that service is required; unavailable requests show retry states. No API key is needed.
 
-The active app lives in `src/app` and `src/components`. The original Vite source files, assets, configuration, and existing `dist` output are retained as inactive reference material to preserve prior work. Development uses `.next-dev`, separate from the production `.next` output.
+The app lives in `src/app` and `src/components`, with local character portraits in `public/images`. Development uses `.next-dev`, separate from the production `.next` output.
